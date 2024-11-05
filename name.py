@@ -2,5 +2,5 @@ from field import Field
 
 
 class Name(Field):
-    # реалізація класу
-    pass
+    def __init__(self, value: str):
+        super().__init__(value)

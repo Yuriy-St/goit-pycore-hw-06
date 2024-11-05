@@ -3,7 +3,7 @@ from phone import Phone
 
 
 class Record:
-    def __init__(self, name):
+    def __init__(self, name: str):
         self.name = Name(name)
         self.phones: list[Phone] = []
 
